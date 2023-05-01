@@ -29,6 +29,8 @@
     display: flex;
     align-items: center;
     flex: 1 1 0%;
+    margin-left: 2.5rem;
+    
 }
 .logo{
     width: auto;
@@ -51,4 +53,32 @@
     height: 2rem;
     height: 2.5rem;
     width: auto;
+}
+.checkbox{
+    display: flex;
+    margin-left: 2.5rem;
+    justify-content: space-around;
+    }
+.navbtn1{
+    color: azure;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    
+}
+.navbtn2{
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1-var(--tw-space-x-reverse)));
+    color: azure;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    
+}
+.navinses{
+    display: flex;
+    justify-content: end;
+}
+.inses{
+
 }
