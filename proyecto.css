@@ -1,6 +1,6 @@
 .bkcg1{
     background-color: gainsboro;
-}
+    }
 
 .bkcg2{
     background-color: burlywood;
@@ -9,27 +9,31 @@
 }
 .bkcghead{
     position: relative;
+    
 }
 .bckgnav{
-    background-color: cornflowerblue;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
 }
-.nav{
+.nav1{
     display: flex;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     max-width: 80rem;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-}
+    }
 .barnav{
     display: flex;
     align-items: center;
     flex: 1 1 0%;
     margin-left: 2.5rem;
+    width: 80%;
     
 }
 .logo{
@@ -64,6 +68,9 @@
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.5rem;
+    margin-left: 1.5rem;
+    font-family: 'Bruno Ace SC', cursive;
+    text-decoration: none;
     
 }
 .navbtn2{
@@ -73,12 +80,39 @@
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.5rem;
+    margin-left: 1.5rem;
+    font-family: 'Bruno Ace SC', cursive;
+    text-decoration: none;
     
 }
 .navinses{
     display: flex;
     justify-content: end;
-}
+    margin-right: 1.5rem;
+    }
 .inses{
-
+    color: azure;
+    font-family: 'Bruno Ace SC', cursive;
+    text-decoration: none;
+}
+main{
+    display: block;
+}
+.contain1{
+    background-color: radial-gradient(#1d4350, #a43931);
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+    overflow: hidden;
+}
+.ccontain1{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80rem;   
+}
+.grain{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 2rem;
 }
