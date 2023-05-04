@@ -495,7 +495,7 @@ main{
 }
 .footgrid{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250,1fr));
+    grid-template-columns: repeat(2,minmax(0,1fr));
     margin-top: 50px;
     gap: 30px;
 }
@@ -513,6 +513,15 @@ main{
     display: grid;
     grid-template-columns: repeat(2,minmax(0,1fr));
     gap: 30px;
+}
+@media screen and (max-width: 500px){
+    .footgrid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        gap: 30px;
+        margin-top: 50px;
+        gap: 30px;
+    }
 }
 .clhd{
     font-family: 'Comme', sans-serif;
