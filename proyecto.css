@@ -75,7 +75,7 @@
     font-size: 1rem;
     line-height: 1.5rem;
     margin-left: 1.5rem;
-    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Comme', sans-serif;
     text-decoration: none;
     
 }
@@ -87,7 +87,7 @@
     font-size: 1rem;
     line-height: 1.5rem;
     margin-left: 1.5rem;
-    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Comme', sans-serif;
     text-decoration: none;
     
 }
@@ -98,7 +98,7 @@
     }
 .inses{
     color: azure;
-    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Comme', sans-serif;
     text-decoration: none;
 }
 main{
@@ -150,7 +150,7 @@ main{
 }
 .cup{
     color: aliceblue;
-    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Comme', sans-serif;
     font-size: 0.75rem;
     padding-left: 0.75rem;
     padding-right: 0.75rem;
@@ -159,7 +159,7 @@ main{
 }
 .prod{
     color: aliceblue;
-    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Comme', sans-serif;
     font-size: 0.75rem;
     margin-left: 1rem;
 }
@@ -168,7 +168,7 @@ main{
     letter-spacing: -0.025em;
     margin-top: 1.75rem;
     color: aliceblue;
-    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Comme', sans-serif;
     font-size: 3.75rem;
 }
 .mess{
@@ -180,7 +180,7 @@ main{
 .mmes{
     margin-top: 1.25rem;
     color: aliceblue;
-    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Comme', sans-serif;
     font-size: 1.5rem;
     text-align: left;
 
@@ -228,7 +228,7 @@ main{
 .sform{
     background-color: #A43931;
     color: aliceblue;
-    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Comme', sans-serif;
     font-weight: 500;
     height: 100%;
     width: 100%;
@@ -236,7 +236,7 @@ main{
 }
 .botmess{
     color: aliceblue;
-    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Comme', sans-serif;
     padding-top: 0.25rem;
 }
 .jmb2{
@@ -247,12 +247,262 @@ main{
 .img{
    text-align: center;
     position: relative;
+    height: 100%;
     
 }
 .iimg{
-    position: relative;
-    width: 100%;
-    height: auto;
+    position: absolute;
+    height: 100%;
     max-width: 100%;
     display: block;
 }
+.blog{
+    background-color: bisque;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.blogcont{
+    position: relative;
+    display: block;
+}
+.blhead{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 80rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titl{
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.star{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.025rem;
+    font-weight: 800;
+    font-family: 'Comme', sans-serif;
+}
+.stdesc{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    max-width: 65ch;
+    margin-top: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Comme', sans-serif;
+}
+.menu{
+    display: grid;
+    position:relative;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    max-width: 80rem;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menuu div{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-width: 80rem; 
+    height: 100%;  
+    border: 1px solid transparent;
+    box-shadow: 15px 10px 10px gray;    
+}
+#menuu2 div{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    position: relative; 
+}
+#picc img{
+    width: 100%;
+    height: 100%;
+}
+#menuu section{
+    position: relative;
+    background-color: aliceblue;
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+    flex-direction: column;
+    flex: 1 1 0%;
+    font-family: 'Comme', sans-serif;
+    ;
+}
+.dddes1{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: bold   ;
+    
+}
+.lm1{
+    text-decoration: none;
+    color: black;
+}
+.mencom1{
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+.mencom11{
+
+    color: gray;
+    font-size: 1.2rem;
+}
+.addic{
+    position: relative;
+    background: linear-gradient(to right, #333333,75%, #A43931);
+    
+}
+.addimag{
+    width: 48%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+.blimg{
+    object-fit:fill;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+.bloblo{
+    mix-blend-mode: multiply;
+    background-image: linear-gradient(to right,var(--tw-gradient-stops));
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+.textmes{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.textcont{
+    padding-left: 2.5rem;
+    width: 48%;
+    margin-left: auto;
+}
+.mehea{
+    font-family: 'Comme', sans-serif;
+    font-size: 1.5em;
+    color: aliceblue;
+}
+#idm p{
+    font-family: 'Comme', sans-serif;
+    color: aliceblue;
+}
+.memain{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.025em;
+    font-weight: 800;
+    margin-top: 0.5rem;
+}
+.memess{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: 0.75rem;
+}
+.subbu{
+    margin-top: 2rem;
+}
+.conta{
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 1.25rem 0.75rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    color: black;
+    font-family: 'Comme', sans-serif;
+    text-decoration: none;
+    box-shadow: 5px 2.5px 2.5px black    ;
+}
+.foot{
+    background-color: bisque;
+}
+.footcont{
+    padding-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 80rem;
+}
+.flxic{
+    display: flex;
+    max-width: 20%;
+    justify-content: space-between;
+    align-content: center;
+}
+.fimg{
+    height: 100%;
+    max-width: 30px;
+}
+.footgrid{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    margin-top: 50px;
+    gap: 30px;
+}
+#ftgrd div{
+    font-family: 'Comme', sans-serif;
+    color: aliceblue;
+    
+}
+.ftab1{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 30px;
+}
+.ftab2{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 30px;
+}
+.clhd{
+    font-family: 'Comme', sans-serif;
+    color: gray;
+}
+.ftca{
+    font-family: 'Comme', sans-serif;
+    color: gray;
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.footmsg{
+    margin-top: 60px;
+    max-width: 100%;
+    height: 80px;
+    padding-top: 30px;
+}
+.finmsg{
+    color: gray;
+}
+.ftitm{
+    color: gray;
+    font-family: 'Comme', sans-serif;
+    text-decoration: none;
+    line-height: 10px;
+    font-size: 15px;
+}
+
+
