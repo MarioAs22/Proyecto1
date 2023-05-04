@@ -41,7 +41,7 @@
 }
 
 .barnav a:hover{
-    color: aquamarine;
+    color: gray;
 }
 .logo{
     width: auto;
@@ -101,6 +101,9 @@
     color: azure;
     font-family: 'Comme', sans-serif;
     text-decoration: none; 
+}
+.navinses a:hover{
+    color: gray;
 }
 
 @media screen and (max-width: 500px) {
@@ -277,12 +280,14 @@ main{
 }
 .jmb2{
    margin:0;
+   
 
 }
 .img{
    padding-left: 0;
    padding-right: 0;
-   max-width: none;
+   max-width: 80rem;
+   height: 100%;
     
 }
 .iimg{
@@ -420,8 +425,10 @@ main{
 }
 .textcont{
     padding-left: 2.5rem;
-    width: 100%;
+    padding-right: 1.5rem;
+    max-width: 100%;
     margin-left: auto;
+    margin-right: auto;
 }
 .mehea{
     font-family: 'Comme', sans-serif;
@@ -474,13 +481,21 @@ main{
     justify-content: space-between;
     align-content: center;
 }
+@media screen and (max-width: 500px){
+    .flxic{
+        display: flex;
+        max-width: 100%;
+        justify-content: space-evenly;
+        align-content: left;
+    }
+}
 .fimg{
     height: 100%;
     max-width: 30px;
 }
 .footgrid{
     display: grid;
-    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(250,1fr));
     margin-top: 50px;
     gap: 30px;
 }
@@ -526,6 +541,9 @@ main{
     text-decoration: none;
     line-height: 10px;
     font-size: 15px;
+}
+.ftca a:hover{
+    color: black;
 }
 
 
